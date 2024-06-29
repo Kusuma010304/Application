@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+      fieldset{
+        text-align:none;
+        font-style:oblique;
+        background-image: linear-gradient(rgb(110, 144, 159),rgb(124, 153, 167))
+      }
+      h1{ 
+        font-size:25px;
+        text-align: center;
+      }
+      h2{
+        font-style: normal;
+        color:pink;
+      }
+    </style>
+</head><form>
+  <fieldset>
+    <h1><b><u>APPLICATION</u></b></h1><hr>
+    <h2>Personal Details</h2>
+    <label for="fname">First name : </label>
+    <input type="text" id="fname" placeholder="Enter ur fname"/><br><br>
+    <label for="lname">Last name : </label>
+    <input type="text" id="lname" placeholder="Enter ur lname"/><br><br>
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob"/><br><br>
+    <label for="Gender">Gender:</label>
+    <input type="radio" name="gen">Male</input>
+    <input type="radio" name="gen">Female</input><br><br>
+    <label>Phone Number:</label>
+    <input type="number"/><br><br>
+    <label>Password:</label>
+    <input type="password" placeholder="create a strong password"><br><br>
+    <label>Email:</label>
+    <input type="email"/ placeholder="Enter valid email"><br><br>
+    <label>Address:</label>
+    <textarea placeholder="Enter ur village name and mandal"></textarea><br><br>
+    <label for="cty">City:</label>
+    <input type="text" id="cty "/><br><br>
+    <label>PinCode:</label>
+    <input type="tel" maxlength="6"/><br><br>
+         <label>State:</label>
+        <select name="" id="">
+        <option value="-Select-">--Select--</option>
+        <option value="Ap">AndhraPradesh</option>
+        <option value="Ts">Telengana</option>
+        <option value="Krla">Kerala</option>
+        <option value="Krla">Tamilnadu</option>
+        <option value="Krla">Mumbai</option>
+        <option value="Ktk">Karnataka</option></select><br><br>
+        <label>Country:</label>
+        <select name="" id="">
+        <option value="-Select-">--Select--</option>
+        <option value="Ap">India</option></select><br><br>
+    <label>Phone Number:</label>
+    <input type="number"/><br><br>
+    <label>Languages:</label>
+English<input type="range">Telugu<input type="range">Hindi<input type="range"><br><br><hr>
+<h2>Skills and Experience</h2>
+<label for="">Skills:</label>
+<input type="checkbox">Html<input type="checkbox">CSS<input type="checkbox">Javascript<input type="checkbox">Java
+<input type="checkbox">Mysql<input type="checkbox">Python<br><br>
+<label>Experience:</label>
+<select name="" id="">
+<option value="nm">----Select---</option>
+<option value="num">0</option>
+<option value="num">1</option>
+<option value="num">2</option>
+<option value="num">3+</option></select><br><br>
+<label for="">Your role:</label>
+<input type="text"/><br><br>
+<label for="">Place where you work?</label>
+<input type="text"/><br><br>
+<label for="">Your current CTC(in Lpa)</label>
+<input type="number"/><br><br>
+<label for="">Notice period (in days)</label>
+<input type="text"/><br><br><hr>
+<h2>Mandatory Information</h2>
+<label>Resume:</label>
+<input type="file" required/><br><br>
+<label>Photo:</label>
+<input type="file" required/>
+<h4>Location</h4>
+<label for="">First preference:</label>
+<select name="" id="">
+  <option value="">---Select---</option>
+  <option value="">Hyderabad</option>
+  <option value="">Bangalore</option>
+  <option value="">Chennai</option>
+</select><br><br>
+<label for="">Second preference:</label>
+<select name="" id="">
+  <option value="">---Select---</option>
+  <option value="">Hyderabad</option>
+  <option value="">Bangalore</option>
+  <option value="">Chennai</option>
+</select><br><br><hr>
+<h3>Please check all your information once before submittion</h3>
+<button>Submit</button>
+<button>Reset</button>
+  </fieldset>
+</form>
+<body>
+    
+</body>
+</html>
